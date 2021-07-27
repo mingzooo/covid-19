@@ -1,0 +1,53 @@
+.clinic_list_body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.clinic_input {
+  width: 80%;
+  height: 2rem;
+}
+
+.clinic_search_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3.4px solid rgba(43, 102, 255, 0.9);
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 95%;
+  height: 4rem;
+  margin-bottom: 20px;
+}
+
+.clinic_list_loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  font-size: 2rem;
+  color: #2b66ff;
+}
+.clinic_list_first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  height: 30vh;
+}
+
+input {
+  border: none;
+  font-size: 1.5rem;
+  border-right: 1.5px solid rgba(43, 102, 255, 0.3);
+  margin-left: 15px;
+}
+input::placeholder {
+  color: rgba(2, 7, 21, 0.1);
+}
+
+input:focus {
+  outline: none;
+}
